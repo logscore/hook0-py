@@ -4,6 +4,8 @@
 
 # TODO: not implemented
 
+from ....models.applicationpost import ApplicationPost
+
 from typing import Any, Optional, TYPE_CHECKING
 
 if TYPE_CHECKING:

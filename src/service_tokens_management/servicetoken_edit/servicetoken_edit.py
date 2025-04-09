@@ -4,6 +4,9 @@
 
 # TODO: not implemented
 
+from ....models.servicetokenpost import ServiceTokenPost
+
+
 from typing import Any, Optional, TYPE_CHECKING
 
 if TYPE_CHECKING:

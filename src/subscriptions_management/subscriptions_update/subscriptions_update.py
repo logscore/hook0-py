@@ -4,6 +4,8 @@
 
 # TODO: not implemented
 
+from ....models.subscriptionpost import SubscriptionPost
+
 from typing import Any, Optional, TYPE_CHECKING
 
 if TYPE_CHECKING:

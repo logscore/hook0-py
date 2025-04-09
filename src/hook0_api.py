@@ -43,7 +43,7 @@ class Hook0API:
         self.client = httpx.Client(timeout=timeout)
 
         if api_key:
-            self.client.headers.update({"Authorization": f"Bearer {api_key}"})
+            self.client.headers.update({"Authorization": f"{api_key}"})
 
         self.events_management = EventsManagement(parent=self)
         self.user_authentication = UserAuthentication(parent=self)
