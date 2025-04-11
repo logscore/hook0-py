@@ -18,8 +18,8 @@ The SDK provides a clean and minimal interface for the Hook0 API. It's designed 
 
 Clone the repository and install dependencies:
 ```
-git clone https://github.com/borea-dev/hook0-python-sdk.git
-cd hook0-python-sdk
+git clone https://github.com/logscore/hook0-py.git
+cd hook0-py
 pip install -r requirements.txt
 ```
 Getting Started
